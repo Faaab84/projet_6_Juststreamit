@@ -1,7 +1,23 @@
-# OpenClassrooms: Projet 6: 
-Ce programme a été créé dans le cadre du projet 6 d'OpenClassrooms. Il s'agit d'un site internet de films à la demande, JustStreamIt.
-Le repertoire static contient les fichiers JS, CSS,Images.
+# JustStreamIt – Classement de films (Front-end)
 
+Application web responsive développée pour l’association JustStreamIt, permettant de consulter en temps réel un classement de films les plus intéressants.
+
+**Fonctionnalités principales**  
+- Affichage des meilleurs films toutes catégories confondues  
+- Catégories dynamiques : Meilleurs films, Meilleurs films de chaque genre  
+- Carrousel interactif pour chaque catégorie (défilement latéral)  
+- Modal détaillé par film (titre, résumé, date, réalisateur, acteurs, budget, etc.)  
+- Récupération asynchrone des données via l’API REST locale OCMovies-API  
+
+**Technologies utilisées**  
+- HTML5 sémantique (validé W3C)  
+- CSS3 (Flexbox, Grid, media queries – responsive mobile-first)  
+- JavaScript vanilla (ES6+, fetch, gestion d’erreurs, manipulation du DOM)  
+
+**Compatibilité** : Chrome, Firefox, Edge (versions récentes)  
+**API requise** : OCMovies-API en local (instructions dans le README de l’API jointe)  
+
+Le projet respecte le cahier des charges et les maquettes fournies par JustStreamIt.
 
 ## Installation:
 Commencez par configurer le dépôt principal avec l'API en suivant le README :
